@@ -1,0 +1,43 @@
+{
+  "name": "slidev-theme-datev-scc",
+  "version": "0.0.2",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "repository": "https://github.com/enolive/slidev-theme-datev-scc",
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.25.8",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "theme-vitesse": "^0.1.12"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.25.8",
+    "@types/node": "^16.10.2"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "slidev": {
+    "colorSchema": "dark",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Nunito Sans",
+        "mono": "Fira Code",
+        "serif": "Noto Serif"
+      },
+      "hightlighter": "prism"
+    }
+  }
+}

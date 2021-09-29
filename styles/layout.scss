@@ -1,0 +1,41 @@
+:root {
+  --theme-primary-light: hsl(84, 63%, 51%);
+  --theme-primary-middle: hsl(96, 65%, 42%);
+  --theme-primary-petrol: hsl(180, 96%, 31%);
+  --theme-background: black;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20;
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p + h2, ul + h2, table + h2 {
+    @apply mt-10;
+  }
+}
+
+.dark #slide-content {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+    color: var(--theme-primary-petrol);
+  }
+
+  a {
+    color: var(--theme-primary-middle);
+  }
+
+  a:hover {
+    color: var(--theme-primary-light);
+  }
+
+  background: var(--theme-background) url(../assets/scc.png) no-repeat bottom 0.5rem right 0.5rem;
+  background-size: 10rem;
+}
