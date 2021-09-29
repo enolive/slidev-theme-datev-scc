@@ -1,5 +1,5 @@
 ---
-theme: ./
+theme: ./ 
 layout: intro
 ---
 
@@ -40,7 +40,7 @@ Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 # Some Icons
 
-<uim-rocket />
+<uim-rocket class="inline"/>
 <twemoji-pile-of-poo />
 <mdi-github />
 <mdi-twitter />
@@ -52,8 +52,46 @@ Read more about [Why Slidev?](https://sli.dev/guide/why)
 See also [Slidev Icons](https://sli.dev/guide/syntax.html#icons)
 
 ---
+layout: default 
+disableLogo: true
+---
 
-# Custom Components
+# Disable Logo
+
+---
+layout: quote 
+author: John Doe
+---
+
+# Quotes
+
+This is my quote!
+
+---
+
+# Custom Component
+
+<WordCloud :list="[
+'HTML',  
+'Ember',  
+'Sass',  
+'FlexBox',  
+'API',  
+'VueJS',  
+'Grid',  
+'Rest',  
+'JavaScript',  
+'Animation',  
+'React',  
+'CSS',  
+'Cache',  
+'Less',  
+'Svelte',  
+'Angular',
+'Spring Boot',
+'Haskell',
+'TDD',
+]"/>
 
 ---
 
@@ -71,7 +109,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd> | next slide |
 
 ---
-layout: image-right
+layout: image-right 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
 
@@ -89,12 +127,13 @@ interface User {
 
 function updateUser(id: number, update: Partial<User>) {
   const user = getUser(id)
-  const newUser = {...user, ...update}  
+  const newUser = {...user, ...update}
   saveUser(id, newUser)
 }
 ```
+
 ---
-layout: center
+layout: center 
 class: "text-center"
 ---
 

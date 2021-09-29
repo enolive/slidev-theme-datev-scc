@@ -5,21 +5,32 @@
   --theme-background: black;
 }
 
+.slidev-layout {
+  h1 {
+    @apply text-6xl;
+  }
+
+  background-size: 10rem;
+  background-color: var(--theme-background);
+}
+
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid;
 
   h1 {
-    @apply text-6xl leading-20;
+    @apply leading-20;
   }
 
   h1 + p {
     @apply -mt-2 opacity-50 mb-4;
   }
+}
 
-  p + h2, ul + h2, table + h2 {
-    @apply mt-10;
-  }
+.slidev-layout.has-logo {
+  background-image: url(../assets/scc.png);
+  background-repeat: no-repeat;
+  background-position: bottom 2rem right 2rem;
 }
 
 .dark #slide-content {
@@ -35,7 +46,4 @@
   a:hover {
     color: var(--theme-primary-light);
   }
-
-  background: var(--theme-background) url(../assets/scc.png) no-repeat bottom 0.5rem right 0.5rem;
-  background-size: 10rem;
 }

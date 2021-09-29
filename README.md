@@ -4,21 +4,17 @@
 
 A theme in the style of DATEV Software Craft Community for [Slidev](https://github.com/slidevjs/slidev).
 
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
+![Intro](screenshots/intro.png)
+![Intro](screenshots/code.png)
+![Intro](screenshots/quote.png)
 
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
-```
----
-theme: datev-scc
----
-```
+<pre><code>---
+theme: <b>datev-scc</b>
+---</code></pre>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
@@ -26,14 +22,21 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-- intro
+- center
 - cover
+- default
+- intro
+- quote
+
+All layouts above have been enriched with the SCC logo.
+
+You can opt-out the logo on the default layout by specifying `disableLogo: true` in the frontmatter.
 
 ## Components
 
 This theme provides the following components:
 
-> TODO
+- WordCloud
 
 ## Contributing
 
