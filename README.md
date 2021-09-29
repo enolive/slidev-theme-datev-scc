@@ -7,6 +7,7 @@ A theme in the style of DATEV Software Craft Community for [Slidev](https://gith
 ![Intro](screenshots/intro.png)
 ![Intro](screenshots/code.png)
 ![Intro](screenshots/quote.png)
+![Intro](screenshots/word-cloud.png)
 
 ## Install
 
