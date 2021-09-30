@@ -6,9 +6,9 @@
 <script>
 export default {
   props: {
-    author: String
-  }
-}
+    author: String,
+  },
+};
 </script>
 
 <template>
@@ -23,9 +23,9 @@ export default {
   </div>
 </template>
 
-<style lang="scss" scoped>
-[data-quote-container]::before {
-  content: '\„';
-  @apply text-8xl absolute -bottom-3 -left-12 font-serif;
-}
+<style lang="postcss" scoped>
+  [data-quote-container]::before {
+    content: "\„";
+    @apply text-8xl absolute -bottom-1 -left-12 font-serif;
+  }
 </style>

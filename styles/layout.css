@@ -27,6 +27,12 @@
   }
 }
 
+.slidev-layout.quote {
+  p {
+    @apply leading-10;
+  }
+}
+
 .slidev-layout.has-logo {
   background-image: url(../assets/scc.png);
   background-repeat: no-repeat;

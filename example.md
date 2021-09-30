@@ -65,7 +65,7 @@ author: John Doe
 
 # Quotes
 
-This is my quote!
+This is my very long quote that needs more than one line to render
 
 ---
 
