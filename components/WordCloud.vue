@@ -2,12 +2,12 @@
   <div>
     <ul aria-label="Word Cloud">
       <li
-        v-for="(item, index) in list"
-        :style="{
+          v-for="(item, index) in list"
+          :style="{
           'font-size': `calc(${randomSize()} * 0.5rem)`,
           color: randomColor(),
         }"
-      :key="index">
+          :key="index">
         {{ item }}
       </li>
     </ul>
@@ -15,51 +15,41 @@
 </template>
 
 <script lang="ts">
+import {PropType} from 'vue'
+
 export default {
-  name: "WordCloud",
+  name: 'WordCloud',
   props: {
-    list: Array,
+    list: Array as PropType<Array<string>>,
   },
   methods: {
     randomColor() {
       const colors = [
-        "#3b8d21",
-        "#4158af",
-        "#97d986",
-        "#84d3cc",
-        "#e199e7",
-        "#a41b4d",
-        "#d3983e",
-        "#8f0bd2",
-      ];
-      return colors[Math.floor(Math.random() * colors.length)];
+        'hsl(96, 65%, 30%)',
+        'hsl(96, 65%, 40%)',
+        'hsl(84, 63%, 50%)',
+        'hsl(84, 63%, 70%)',
+        'hsl(180, 96%, 20%)',
+        'hsl(180, 96%, 30%)',
+        'hsl(180, 96%, 40%)',
+        'hsl(180, 96%, 50%)',
+      ]
+      return colors[Math.floor(Math.random() * colors.length)]
     },
-
     randomSize() {
-      const min = 2;
-      const max = 9;
-      return Math.floor(Math.random() * (max - min + 1) + min);
+      const min = 2
+      const max = 9
+      return Math.floor(Math.random() * (max - min + 1) + min)
     },
   },
-};
+}
 </script>
 
 <style lang="postcss" scoped>
 ul {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 85%;
-
+  @apply w-4/5 list-none px-0 flex flex-wrap items-center justify-center;
   li {
-    display: inline;
-    padding: 0.125rem 0.5rem;
-    margin: 0;
-    position: relative;
-    line-height: 3.5rem;
+    @apply leading-15 px-2 relative m-0 inline;
   }
 }
 </style>

@@ -9,7 +9,6 @@
   h1 {
     @apply text-6xl;
   }
-
   background-size: 10rem;
   background-color: var(--theme-background);
 }
@@ -17,12 +16,10 @@
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid;
-
   h1 {
     @apply leading-20;
   }
-
-  h1 + p {
+  h1+p {
     @apply -mt-2 opacity-50 mb-4;
   }
 }
@@ -40,15 +37,18 @@
 }
 
 .dark #slide-content {
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: serif;
     color: var(--theme-primary-petrol);
   }
-
   a {
     color: var(--theme-primary-middle);
   }
-
   a:hover {
     color: var(--theme-primary-light);
   }
