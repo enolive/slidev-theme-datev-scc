@@ -61,6 +61,7 @@ disableLogo: true
 ---
 layout: quote 
 author: John Doe
+link: https://www.google.de
 ---
 
 # Quotes

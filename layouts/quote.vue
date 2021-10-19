@@ -7,6 +7,7 @@
 export default {
   props: {
     author: String,
+    link: String,
   },
 };
 </script>
@@ -18,14 +19,17 @@ export default {
         <slot />
       </div>
       <hr class="w-48 border-t-5 border-vgreen mb-2" />
-      <p v-if="author" class="italic text-xl font-extralight">{{ author }}</p>
+      <p v-if="author" class="italic text-xl font-extralight">
+        <a v-if="link" :href="link">{{ author }}</a>
+        <template v-else>{{ author }}</template>
+      </p>
     </div>
   </div>
 </template>
 
 <style lang="postcss" scoped>
-  [data-quote-container]::before {
-    content: "\„";
-    @apply text-8xl absolute -bottom-1 -left-12 font-serif;
-  }
+[data-quote-container]::before {
+  content: "\„";
+  @apply text-8xl absolute -bottom-1 -left-12 font-serif;
+}
 </style>
