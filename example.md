@@ -152,10 +152,14 @@ journey
 ```
 
 ---
-layout: center 
+layout: cover 
 class: "text-center"
 ---
 
 # Learn More
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+<div>
+
+[Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+
+</div>
