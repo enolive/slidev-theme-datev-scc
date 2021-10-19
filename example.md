@@ -98,7 +98,7 @@ This is my very long quote that needs more than one line to render
 
 # Navigation
 
-Hover on the bottom-left corner to see the navigation's controls panel
+Hover on the bottom-left corner to see the navigation's controls panel[^1]
 
 ### Keyboard Shortcuts
 
@@ -108,6 +108,10 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
 | <kbd>up</kbd> | previous slide |
 | <kbd>down</kbd> | next slide |
+
+More Text
+
+[^1]: This is a footnote
 
 ---
 layout: image-right 

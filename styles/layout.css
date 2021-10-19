@@ -50,3 +50,11 @@
     color: var(--theme-primary-light);
   }
 }
+
+.footnotes-sep {
+  @apply opacity-15 w-3/4;
+}
+
+.footnote-backref {
+  display: none;
+}
