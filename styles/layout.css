@@ -80,6 +80,6 @@
   }
 
   .slidev-vclick-prior {
-    @apply !opacity-30;
+    @apply !opacity-40;
   }
 }

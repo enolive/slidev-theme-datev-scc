@@ -38,6 +38,12 @@ You can opt-out the logo on the default layout by specifying `disableLogo: true`
 This theme provides the following components:
 
 - WordCloud
+- VCard
+
+## Animations
+
+The default click animation was pimped so it scales in the hidden element.
+There is an additional `fade` utility class that allows fading in the current element while prior elements will be shown in a lower opacity.
 
 ## Contributing
 

@@ -70,7 +70,9 @@ This is my very long quote that needs more than one line to render
 
 ---
 
-# Custom Component
+# Word Cloud
+
+Simple Vue component for rendering a word cloud with a list of randomly weighed items.
 
 <WordCloud :list="[
 'HTML',  
@@ -93,6 +95,14 @@ This is my very long quote that needs more than one line to render
 'Haskell',
 'TDD',
 ]"/>
+
+---
+
+# VCard
+
+Simple Component for showing a link to the presentation itself and a twitter handle in the top right corner.
+
+<VCard twitterHandle="ChristophWelcz" githubUrl="https://github.com/enolive/slidev-theme-datev-scc/"/>
 
 ---
 
@@ -163,7 +173,7 @@ journey
 class: fade
 ---
 
-# Animations
+# Animations with Fade
 
 <v-clicks>
 
