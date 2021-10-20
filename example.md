@@ -100,6 +100,8 @@ This is my very long quote that needs more than one line to render
 
 Hover on the bottom-left corner to see the navigation's controls panel[^1]
 
+<div v-click>
+
 ### Keyboard Shortcuts
 
 |     |     |
@@ -108,6 +110,8 @@ Hover on the bottom-left corner to see the navigation's controls panel[^1]
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
 | <kbd>up</kbd> | previous slide |
 | <kbd>down</kbd> | next slide |
+
+</div>
 
 More Text
 
