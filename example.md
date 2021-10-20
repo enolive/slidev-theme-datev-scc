@@ -160,6 +160,22 @@ journey
 ```
 
 ---
+class: fade
+---
+
+# Animations
+
+<v-clicks>
+
+- Only one item will be focused at one time!
+- You can use this to your advantage!
+- The human brain can only concentrate on a few things (speak: only one) at the same time.
+- Use this for psychological warfare 😉.
+- See also [How to prevent death by powerpoint 10:52](https://youtu.be/Iwpi1Lm6dFo?t=652)
+
+</v-clicks>
+
+---
 layout: cover 
 class: "text-center"
 ---

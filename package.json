@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-datev-scc",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -20,7 +20,8 @@
   },
   "devDependencies": {
     "@slidev/cli": "^0.25.8",
-    "@types/node": "^16.10.2"
+    "@types/node": "^16.10.2",
+    "playwright-chromium": "^1.15.2"
   },
   "engines": {
     "node": ">=14.0.0",
