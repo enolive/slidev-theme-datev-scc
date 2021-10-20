@@ -16,6 +16,9 @@
   h1 {
     @apply leading-20 text-6xl;
   }
+}
+
+.slidev-layout.intro {
   h1+p {
     @apply -mt-2 opacity-50 mb-4;
   }

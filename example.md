@@ -162,8 +162,4 @@ class: "text-center"
 
 # Learn More
 
-<div>
-
 [Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
-
-</div>
