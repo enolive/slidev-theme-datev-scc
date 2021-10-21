@@ -28,6 +28,7 @@
   display: block !important;
   font-size: 6rem !important;
   font-family: "Ranchers", serif !important;
+  word-spacing: 1rem;
   text-transform: uppercase;
   .words-line {
     overflow: hidden;
