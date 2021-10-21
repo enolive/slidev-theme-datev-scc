@@ -69,6 +69,12 @@ link: https://www.google.de
 This is my very long quote that needs more than one line to render
 
 ---
+layout: banner
+main: The Main Title
+sub: The Sub Title
+---
+
+---
 
 # Word Cloud
 

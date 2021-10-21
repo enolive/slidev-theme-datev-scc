@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Ranchers";
+  src: url("Ranchers-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.animated-header-text {
+  background: linear-gradient(to right, var(--theme-primary-light), var(--theme-primary-middle), var(--theme-primary-petrol));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+.words {
+  display: block !important;
+  font-size: 6rem !important;
+  font-family: "Ranchers", serif !important;
+  text-transform: uppercase;
+  .words-line {
+    overflow: hidden;
+    position: relative;
+    line-height: 10rem;
+    &:nth-child(1) {
+      left: 3rem;
+      transform: skew(60deg, -30deg) scaleY(0.7);
+    }
+    &:nth-child(2) {
+      top: -5rem;
+      left: 8.5rem;
+      transform: skew(0deg, -30deg) scaleY(1.5);
+    }
+    padding: 0 2rem;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  .revert {
+    color: black;
+    background-color: white;
+    text-align: left;
+  }
+}

@@ -34,6 +34,7 @@
   background-image: url(../assets/scc.png);
   background-repeat: no-repeat;
   background-position: bottom 2rem right 2rem;
+  background-size: 5rem;
 }
 
 .dark #slide-content {
