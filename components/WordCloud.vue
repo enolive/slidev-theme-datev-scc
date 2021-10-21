@@ -47,7 +47,7 @@ export default {
 
 <style lang="postcss" scoped>
 ul {
-  @apply w-4/5 list-none px-0 flex flex-wrap items-center justify-center;
+  @apply list-none px-0 flex flex-wrap items-center justify-center;
   li {
     @apply leading-15 px-2 relative m-0 inline;
   }
