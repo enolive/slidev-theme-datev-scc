@@ -1,4 +1,5 @@
 @import 'prism-theme-vars/base.css';
+@import 'prism-theme-vars/marker.css';
 @import 'codemirror-theme-vars/base.css';
 @import 'prism-theme-vars/to-codemirror.css';
 
@@ -55,20 +56,25 @@ html.dark {
 }
 
 pre[class*='language-'] {
-  @apply p-2;
+  @apply p-2 relative;
+}
+
+pre[class*='language-']::before {
+  @apply absolute z-10 bg-dark-50 p-1 top-0 right-0 border-gray-500 text-light-500 font-bold opacity-100;
+}
+
+[class~='language-kotlin']:before {
+  content: 'kotlin';
+}
+
+[class~='language-haskell']:before {
+  content: 'haskell';
 }
 
 :not(pre) > code {
   font-size: 0.9em;
   background: var(--prism-background);
   @apply font-light py-0.5 rounded;
-}
-
-
-:not(pre) > code:before,
-:not(pre) > code:after {
-  content: '`';
-  opacity: 0.50;
 }
 
 :not(pre) > code:before {

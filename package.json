@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-datev-scc",
-  "version": "0.2.2",
+  "version": "0.3.1",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -36,7 +36,7 @@
         "mono": "Fira Code",
         "serif": "Noto Serif"
       },
-      "hightlighter": "prism"
+      "highlighter": "prism"
     }
   }
 }

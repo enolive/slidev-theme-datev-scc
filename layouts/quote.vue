@@ -15,7 +15,7 @@ export default {
 <template>
   <div class="slidev-layout quote has-logo">
     <div class="flex flex-col justify-center h-full z-2 max-w-[750px] pl-5">
-      <div data-quote-container class="mb-4 text-5xl relative">
+      <div data-quote-container class="mb-4 text-5xl leading-relaxed relative">
         <slot />
       </div>
       <hr class="w-48 border-t-5 border-vgreen mb-2" />
