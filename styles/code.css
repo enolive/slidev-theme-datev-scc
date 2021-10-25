@@ -63,12 +63,18 @@ pre[class*='language-']::before {
   @apply absolute z-10 bg-dark-50 p-1 top-0 right-0 border-gray-500 text-light-500 font-bold opacity-100;
 }
 
+/* TODO: add more language markers! */
+
 [class~='language-kotlin']:before {
   content: 'kotlin';
 }
 
 [class~='language-haskell']:before {
   content: 'haskell';
+}
+
+[class~='language-groovy']:before {
+  content: 'groovy';
 }
 
 :not(pre) > code {
