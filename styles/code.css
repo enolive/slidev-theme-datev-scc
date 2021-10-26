@@ -77,6 +77,10 @@ pre[class*='language-']::before {
   content: 'groovy';
 }
 
+[class~='language-log']:before {
+  content: 'log';
+}
+
 :not(pre) > code {
   font-size: 0.9em;
   background: var(--prism-background);
