@@ -38,13 +38,14 @@
 }
 
 .dark #slide-content {
+  @apply font-sans;
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    font-family: serif;
+    @apply font-serif;
     color: var(--theme-primary-petrol);
   }
   a {
@@ -52,6 +53,10 @@
   }
   a:hover {
     color: var(--theme-primary-light);
+  }
+  code, 
+  kbd {
+    @apply font-mono;
   }
 }
 
