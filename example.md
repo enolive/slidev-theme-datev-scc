@@ -108,7 +108,7 @@ Simple Vue component for rendering a word cloud with a list of randomly weighed 
 
 Simple Component for showing a link to the presentation itself and a twitter handle in the top right corner.
 
-<VCard twitterHandle="ChristophWelcz" githubUrl="https://github.com/enolive/slidev-theme-datev-scc/"/>
+<VCard twitterHandle="ChristophWelcz" githubUrl="https://github.com/enolive/slidev-theme-datev-scc/" gitlab-url="test" mastodon-handle="@ChristophWelcz@mastodon.world"/>
 
 ---
 
